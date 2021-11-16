@@ -18,7 +18,7 @@ function replaceDogNames(alist,astring){
     // for loop to get all names 
     // replace DogNames indexes
     for(let i = 0; i < alist.length; i++){
-         astring.includes(alist[i]) ? astring.splice(i, 'Matched'): console.log("No Matches")
+         astring.includes(alist[i]) ? alist.splice(i, 'Matched'+alist[i]): console.log("No Matches")
     }
 }
 
